@@ -196,38 +196,6 @@ main { position: relative; z-index: 1; }
 .timeline-content h4 { margin-top: 5px; font-family: "Roboto Slab",serif; font-size: 17px; line-height: 1.35; font-weight: 600; }
 .timeline-content p { margin-top: 8px; color: var(--muted); font-size: 11px; }
 .timeline-card.current { border-color: rgba(185,155,99,.5); background: rgba(185,155,99,.05); }
-.timeline-card.featured {
-    border-color: rgba(185,155,99,.75);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(185,155,99,.10),
-            rgba(16,20,25,.85)
-        );
-
-    box-shadow:
-        0 0 10px rgba(185,155,99,.25),
-        0 0 25px rgba(185,155,99,.18),
-        0 0 45px rgba(185,155,99,.10);
-
-    animation: timelineGlow 2.5s ease-in-out infinite alternate;
-}
-
-@keyframes timelineGlow {
-    from {
-        box-shadow:
-            0 0 8px rgba(185,155,99,.18),
-            0 0 18px rgba(185,155,99,.12);
-    }
-
-    to {
-        box-shadow:
-            0 0 14px rgba(185,155,99,.40),
-            0 0 30px rgba(185,155,99,.25),
-            0 0 55px rgba(185,155,99,.12);
-    }
-}
 .current-badge { display: inline-block; margin-top: 12px; color: var(--accent-light); font-size: 9px; letter-spacing: 1.4px; }
 .district-block.hidden { display: none; }
 
